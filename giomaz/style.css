@@ -1,0 +1,62 @@
+/*
+Theme Name: giomaz
+Theme URI: https://gioielleriamazzon.it
+Author: the Paolo M
+Author URI: https://gioielleriamazzon.it
+Description: Theme test
+Tags: blog, presentation businnes
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: giomaz
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* Navigation Bar */
+
+.navbar {
+    position: fixed;
+    background-color: #8d9d8876;
+    top: 0;
+    padding: 1rem 1rem 3rem 1rem;
+    z-index: 2;
+    transition: top 0.3s;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+    
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+    color: rgb(174, 57, 57);
+  }
+  .navbar-toggler-icon {
+    width: 5em;
+    height:5em;
+  }
+  .dropdown-item {
+    color: aquamarine;
+  }
+  .display-3 {
+    padding-top: 15%;
+  }
+  
+  /* Title image */
+  .title-image {
+    width: 60%;
+    transform: rotate(25deg);
+  }
+  
